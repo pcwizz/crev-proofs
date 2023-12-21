@@ -20,3 +20,32 @@ review:
 EZUOuybYBXn6oaXU-0Vgj8ewnF0tUROL2LrvRrVbYKQdCnnDZsaW3dBR3BXBC-S1oa-cGFcfBnSDApfkrvUhAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-12-21T22:59:29.966685268+01:00
+from:
+  id-type: crev
+  id: HFThWUkAZgicOxTjqBsIX5yyH4pQr4Py8vD7Ho7wzqE
+  url: https://github.com/pcwizz/crev-proofs
+package:
+  source: https://crates.io
+  name: rosenpass
+  version: 0.2.1
+  revision: 0b4b1279cf7f322a41387878dd7ceee1ed094e29
+  digest: Rz-135b3g6D-WW58x3t4t2XWStqyi9djQLTujKySKag
+review:
+  thoroughness: high
+  understanding: medium
+  rating: positive
+advisories:
+- ids:
+  - RUSTSEC-2023-0077
+  severity: high
+  comment: ''
+comment: |-
+  A full code review, static analyses and runtime testing techniques were conducted of the course of several days. The implementation was also checked against the white paper and assessed for protocol level weaknesses. The code quality is high. During the course of this review DoS condition was discovered in the message decoding implementation, the issue was fixed promptly, the fix has been verified to work.
+----- SIGN CREV PROOF -----
+hzMhjX6jIeIPhcjc7NlRksx0kb50biTmQp1Qv9CtEKTT7vYGgoEQWGK8XJtyoXU6OwSJN4o2eXAObH0rhcAiCQ
+----- END CREV PROOF -----
+
